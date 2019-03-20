@@ -1,0 +1,252 @@
+robot:
+  robot_specifications:
+    - footprint:
+        footprint_specifications:
+          radius: 0.200000002980232
+          points:
+            []
+    - initial_pose:
+        x: 0
+        y: 0
+        theta: 0
+    - sonar:
+        sonar_specifications:
+          cone_angle: 0.870000004768372
+          max_range: 3
+          min_range: 0.150000005960464
+          frequency: 10
+          frame_id: sonar_0
+          pose:
+            x: 0.1
+            y: 0
+            theta: 0
+          noise:
+            noise_specifications:
+              noise_mean: 0.100000001490116
+              noise_std: 0.00999999977648258
+    - sonar:
+        sonar_specifications:
+          cone_angle: 0.870000004768372
+          max_range: 3
+          min_range: 0.150000005960464
+          frequency: 10
+          frame_id: sonar_1
+          pose:
+            x: 0.1
+            y: 0.05
+            theta: 0.392699081699
+          noise:
+            noise_specifications:
+              noise_mean: 0.100000001490116
+              noise_std: 0.00999999977648258
+    - sonar:
+        sonar_specifications:
+          cone_angle: 0.870000004768372
+          max_range: 3
+          min_range: 0.150000005960464
+          frequency: 10
+          frame_id: sonar_2
+          pose:
+            x: 0.1
+            y: 0.1
+            theta: 0.785398163397
+          noise:
+            noise_specifications:
+              noise_mean: 0.100000001490116
+              noise_std: 0.00999999977648258
+    - sonar:
+        sonar_specifications:
+          cone_angle: 0.870000004768372
+          max_range: 3
+          min_range: 0.150000005960464
+          frequency: 10
+          frame_id: sonar_3
+          pose:
+            x: 0.05
+            y: 0.1
+            theta: 1.1780972451
+          noise:
+            noise_specifications:
+              noise_mean: 0.100000001490116
+              noise_std: 0.00999999977648258
+    - sonar:
+        sonar_specifications:
+          cone_angle: 0.870000004768372
+          max_range: 3
+          min_range: 0.150000005960464
+          frequency: 10
+          frame_id: sonar_4
+          pose:
+            x: 0
+            y: 0.1
+            theta: 1.57079632679
+          noise:
+            noise_specifications:
+              noise_mean: 0.100000001490116
+              noise_std: 0.00999999977648258
+    - sonar:
+        sonar_specifications:
+          cone_angle: 0.870000004768372
+          max_range: 3
+          min_range: 0.150000005960464
+          frequency: 10
+          frame_id: sonar_5
+          pose:
+            x: -0.05
+            y: 0.1
+            theta: 1.96349540849
+          noise:
+            noise_specifications:
+              noise_mean: 0.100000001490116
+              noise_std: 0.00999999977648258
+    - sonar:
+        sonar_specifications:
+          cone_angle: 0.870000004768372
+          max_range: 3
+          min_range: 0.150000005960464
+          frequency: 10
+          frame_id: sonar_6
+          pose:
+            x: -0.1
+            y: 0.1
+            theta: 2.35619449019
+          noise:
+            noise_specifications:
+              noise_mean: 0.100000001490116
+              noise_std: 0.00999999977648258
+    - sonar:
+        sonar_specifications:
+          cone_angle: 0.870000004768372
+          max_range: 3
+          min_range: 0.150000005960464
+          frequency: 10
+          frame_id: sonar_7
+          pose:
+            x: -0.1
+            y: 0.05
+            theta: 2.74889357189
+          noise:
+            noise_specifications:
+              noise_mean: 0.100000001490116
+              noise_std: 0.00999999977648258
+    - sonar:
+        sonar_specifications:
+          cone_angle: 0.870000004768372
+          max_range: 3
+          min_range: 0.150000005960464
+          frequency: 10
+          frame_id: sonar_8
+          pose:
+            x: -0.1
+            y: 0
+            theta: 3.14159265359
+          noise:
+            noise_specifications:
+              noise_mean: 0.100000001490116
+              noise_std: 0.00999999977648258
+    - sonar:
+        sonar_specifications:
+          cone_angle: 0.870000004768372
+          max_range: 3
+          min_range: 0.150000005960464
+          frequency: 10
+          frame_id: sonar_9
+          pose:
+            x: -0.1
+            y: -0.05
+            theta: -2.74889357189
+          noise:
+            noise_specifications:
+              noise_mean: 0.100000001490116
+              noise_std: 0.00999999977648258
+    - sonar:
+        sonar_specifications:
+          cone_angle: 0.870000004768372
+          max_range: 3
+          min_range: 0.150000005960464
+          frequency: 10
+          frame_id: sonar_10
+          pose:
+            x: -0.1
+            y: -0.1
+            theta: -2.35619449019
+          noise:
+            noise_specifications:
+              noise_mean: 0.100000001490116
+              noise_std: 0.00999999977648258
+    - sonar:
+        sonar_specifications:
+          cone_angle: 0.870000004768372
+          max_range: 3
+          min_range: 0.150000005960464
+          frequency: 10
+          frame_id: sonar_11
+          pose:
+            x: -0.05
+            y: -0.1
+            theta: -1.96349540849
+          noise:
+            noise_specifications:
+              noise_mean: 0.100000001490116
+              noise_std: 0.00999999977648258
+    - sonar:
+        sonar_specifications:
+          cone_angle: 0.870000004768372
+          max_range: 3
+          min_range: 0.150000005960464
+          frequency: 10
+          frame_id: sonar_12
+          pose:
+            x: 0
+            y: -0.1
+            theta: -1.57079632679
+          noise:
+            noise_specifications:
+              noise_mean: 0.100000001490116
+              noise_std: 0.00999999977648258
+    - sonar:
+        sonar_specifications:
+          cone_angle: 0.870000004768372
+          max_range: 3
+          min_range: 0.150000005960464
+          frequency: 10
+          frame_id: sonar_13
+          pose:
+            x: 0.05
+            y: -0.1
+            theta: -1.1780972451
+          noise:
+            noise_specifications:
+              noise_mean: 0.100000001490116
+              noise_std: 0.00999999977648258
+    - sonar:
+        sonar_specifications:
+          cone_angle: 0.870000004768372
+          max_range: 3
+          min_range: 0.150000005960464
+          frequency: 10
+          frame_id: sonar_14
+          pose:
+            x: 0.1
+            y: -0.1
+            theta: -0.785398163397
+          noise:
+            noise_specifications:
+              noise_mean: 0.100000001490116
+              noise_std: 0.00999999977648258
+    - sonar:
+        sonar_specifications:
+          cone_angle: 0.870000004768372
+          max_range: 3
+          min_range: 0.150000005960464
+          frequency: 10
+          frame_id: sonar_15
+          pose:
+            x: 0.1
+            y: -0.05
+            theta: -0.392699081699
+          noise:
+            noise_specifications:
+              noise_mean: 0.100000001490116
+              noise_std: 0.00999999977648258
+
